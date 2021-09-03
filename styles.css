@@ -1,0 +1,77 @@
+/*  Este es mi archivo de estilos */
+
+h1 {
+    color:red;
+}
+
+h2{
+    color:green;
+}
+
+p{
+    color: blue;
+    font-size: 80%;
+}
+
+body{
+    /* background */
+    background-color: #000; /* color hexadecimal */
+    background-color: rgb(162,17,17);
+    background-color: rgba(162,17,17,0.5);
+    background-color: grey;
+}
+
+p{
+    color: #fff;
+}
+
+/* usar selector de ID */
+
+#parrafo1{
+    color: yellowgreen;
+}
+
+#parrafo2{
+    color: red;
+}
+
+p{
+    color:#fff;
+}
+
+/** Definir estilos de la clase caja **/
+
+.caja {
+    border: 1px solid #fff;
+    height: 50 px;
+    width: 200px;
+    margin: 20px
+    padding: 20px;
+}
+
+.caja#cajaRoja{
+    border: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
