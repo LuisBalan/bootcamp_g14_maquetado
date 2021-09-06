@@ -3,20 +3,77 @@
 
     <head>
         <link rel = "stylesheet" type = "text/css" href = "css/styles.css"
-        <title>¡Hola! Ingresa tu teléfono, e-mail o usuario</title>
+        <title> ¡Hola! Ingresa tu teléfono, e-mail o usuario </title>
     </head>
+
     <body>
-        <div id = "superior">
-        <nav>
-            mercado libre
-        </nav>
-        </div>
-        <p>Protegido por reCAPTCHA <a href="#">Privacidad</a>-<a href="#">Condiciones</a></p>
+
+        <header>
+            <div class = "logo-contenedor">
+                <a href = "https://www.mercadolibre.com.mx/" target = "_blank">
+                    <img src = "img/mercadolibre_logo.png">
+                </a>
+            </div>
+            <div>
+                <i class = "fas fa-question-circle"></i>
+            </div>
+        </header>
+
+        <!-- 1ra sección color de fondo amarillo -->
+        <section class = "1raseccion">
+
+        </section>
+
+        <!-- 2da seccion la que contiene los datos a ingresar-->
+        <section class = "2daseccion">
+            <main>
+                <p>
+                    ¡Hola! Ingresa tu teléfono, e-mail o usuario
+                </p>
+                <form>
+                    <label for = "user">Teléfono, e-mail o usuario</label>
+                    <br>
+                    <input id = "user" type = "text">
+                </form>
+
+                <a href = "#">
+                    <button name = "continuar"> Continuar </button>
+                </a>
+                <a href = "#">
+                    <button name = "crearcuenta">Crear cuenta</button>
+                </a>
+
+                <section>
+                    <a href = "#">Necesito ayuda para ingresar</a>
+                </section>
+                
+            </main>
+
+        </section>
+
+        
+        
+        <!-- 3ra sección de la página con fondo gris-->
+       <section class = "3raseccion">
+           <ul>
+               <li>
+                <p>Protegido por reCAPTCHA</p>
+               </li>
+               <li>-</li>
+               <li><a href="#">Privacidad</a></li>
+               <li>-</li>
+               <li><a href="#">Condiciones</a></li>
+           </ul>
+
+       </section>
+       
+       <!-- Este es mi footer -->
         <footer>
-            <a href = "#">Cuidamos tu privacidad</p>
+            <a href = "#">Cómo cuidamos tu privacidad</a>
             <br>
             <p>Copyright 1999-2021 DeRemate.com S. de R.L. de C.V. </p>
         </footer>
+
     </body>
 
 </html>
