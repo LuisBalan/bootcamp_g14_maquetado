@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../taller_git_gihub/primer-repo-git"
+		},
+		{
+			"path": "../maq_web_content/bootcamp_g14_maquetado"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bootcamp_g14_maquetado"
+	}
+}
