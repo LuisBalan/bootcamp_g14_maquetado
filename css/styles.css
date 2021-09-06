@@ -1,3 +1,26 @@
-#superior{
-    background-color: #fff059;
+body {
+    background: #ededed;
+}
+header, section {
+    width: 100%;
+}
+
+header, div.first_section {
+    width: 100%;
+    background: #fff059;
+    
+}
+
+.second_section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.third_section {
+    background: red;
+}
+
+footer {
+    background: #fff;
 }
