@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "../maq_web_content/bootcamp_g14_maquetado"
+		},
+		{
+			"path": "."
 		}
 	],
 	"settings": {
