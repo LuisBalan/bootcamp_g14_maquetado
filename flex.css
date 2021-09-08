@@ -1,0 +1,88 @@
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* .portada{
+    /* background-image: url("netflix-background.jpg") ; */
+    /* width: 2000px;
+    height: 1125px */
+    
+} */
+
+div{
+    border: 1px, solid black;
+}
+
+div.container{
+    display: flex;
+}
+
+.nav {
+    border: 1px solid red;
+    height: 3%;
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.left-nav {
+    border: 1px solid blue;
+}
+
+div.right-nav {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main_screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+    border: black solid 1px;
+}
+
+.login{
+    border: blue solid 1px;
+    height: 40%;
+    width: 70%;
+}
+
+.email-start{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+li{
+    display:inline;
+}
+
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#comenzar{
+    background-color:  red;
+}
+
+div.black-section{
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
