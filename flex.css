@@ -1,26 +1,30 @@
 body{
     width: 100%;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: stretch;
+    background: #333;
+    border: 1px solid #333;
 }
 
-/* .portada{
-    /* background-image: url("netflix-background.jpg") ; */
-    /* width: 2000px;
-    height: 1125px */
+div.portada{
+    width:100%;
+    height: 750%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    /* border: green solid 1px; */
+    align-items: stretch;
+    background-image: url(netflix-background.jpg);
+}
+
+/* div{
+    border: 1px, solid black;
+   
     
 } */
-
-div{
-    border: 1px, solid black;
-}
-
-div.container{
-    display: flex;
-}
 
 .nav {
     border: 1px solid red;
@@ -30,6 +34,7 @@ div.container{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    align-content: stretch;
 }
 
 div.left-nav {
@@ -41,22 +46,33 @@ div.right-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
+}
+
+.listasup{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+
 }
 
 .main_screen{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    height: 30%;
+    justify-content: center;
     width: 100%;
+    height: 97%;
     border: black solid 1px;
 }
 
 .login{
-    border: blue solid 1px;
-    height: 40%;
+    /* border: blue solid 1px; */
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .email-start{
@@ -67,22 +83,45 @@ div.right-nav {
 
 }
 
-li{
-    display:inline;
-}
+
 
 p{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: white;
 }
 
-#comenzar{
-    background-color:  red;
-}
+
 
 div.black-section{
     width: 100%;
+    height: 60%;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    display: flex;
+    align-content: stretch;
 }
+
+div.disfruta1, div.descarga, div.disfruta2, div.perfiles, div.frecuentes {
+    height: 20%;
+    border: 1px #333 solid;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+div.frecuentes{
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
