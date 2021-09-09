@@ -196,3 +196,7 @@ ul.final-questions {
 ul.final-questions li{
     display: inline;
 }
+
+#comenzar: :hover{
+    color: blue;
+}
