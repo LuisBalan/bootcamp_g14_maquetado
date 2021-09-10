@@ -1,5 +1,5 @@
 * {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 body header {
-  width: 75%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,7 +61,7 @@ body header nav .links li a {
 }
 
 body .page {
-  width: 75%;
+  width: 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,16 +69,16 @@ body .page {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
 
 body .page .articles {
-  width: 68%;
+  width: 74%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -91,13 +91,15 @@ body .page .articles {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 95%;
 }
 
 body .page .articles #article1, body .page .articles #article2 {
   background: #fff;
   padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 5px;
+  margin: 5px;
+  border-radius: 8px;
+  height: 95%;
 }
 
 body .page aside {
@@ -113,14 +115,21 @@ body .page aside {
       -ms-flex-align: center;
           align-items: center;
   background: #ff8000;
+  border-radius: 8px;
+}
+
+body .page aside h2 {
+  color: #fff;
 }
 
 body .page aside p {
   text-align: center;
+  width: 85%;
+  color: #fff;
 }
 
 body footer {
-  width: 75%;
+  width: 80%;
   background: black;
   height: 60px;
   border: 0.3px solid black;

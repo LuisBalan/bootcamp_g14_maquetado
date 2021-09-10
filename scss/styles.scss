@@ -2,7 +2,7 @@ $bodyColor: #ededed;
 $articleColor: #fff;
 $asideColor: #ff8000;
 $navColor: #528fd5;
-$generalWidth: 75%;
+$generalWidth: 80%;
 $footerColor: black;
 $markBorder: 0.3px solid black;
 
@@ -12,12 +12,24 @@ $markBorder: 0.3px solid black;
     // background: $articleColor;
     background: $articleColor;
     padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}
+
+@mixin aside-style($asideColor){
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: $asideColor;
+            border-radius: 8px;
+            
+
 }
 
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:sans-serif;
+    
 }
 
 
@@ -75,34 +87,39 @@ body{
         width: $generalWidth;
         display: flex;
         flex-direction: row;
-        align-items: stretch;
+        align-items: center;
+        
         justify-content: space-between;
         // border: $markBorder;
 
         .articles{
-            width: 68%;
+            width: 74%;
             display: flex;
             flex-direction: column;
             justify-content:space-around;
             align-items: center;
+            height: 95%;
             // border: $markBorder;
 
             
             #article1, #article2{
                 @include article-style($articleColor);
+                height: 95%
 
             }
         }
 
         aside{
-            width: 25%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            background: $asideColor;
+            @include aside-style($asideColor);
+
+            h2{
+                color: $articleColor;
+            }
 
             p{
-                text-align:center;
+                text-align: center;
+                width: 85%;
+                color: $articleColor;
             }
         }
 
@@ -121,6 +138,7 @@ body{
             p{
                 color: white;
                 text-align: center;
+                
             
             }
             
