@@ -1,9 +1,23 @@
-//variables
-
-$bgColorBody: #1d0b0b ; 
-
+$bodyColor: #ededed;
+$articleColor: #fff;
+$asideColor: #ff8000;
+$generalWidth: 90%;
 
 body{
-    background-color: $bgColorBody;
-    color: red;
+    background: $bodyColor;
+    display: flex;
+    header{
+        width: $generalWidth;
+        display: flex;
+
+    }
+    section{
+        width: $generalWidth;
+
+    }
+    footer{
+        width: $generalWidth;
+
+    }
+
 }

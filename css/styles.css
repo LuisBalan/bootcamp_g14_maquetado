@@ -1,5 +1,22 @@
 body {
-  background-color: #1d0b0b;
-  color: red;
+  background: #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body section {
+  width: 90%;
+}
+
+body footer {
+  width: 90%;
 }
 /*# sourceMappingURL=styles.css.map */
