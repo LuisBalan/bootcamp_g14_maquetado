@@ -2,48 +2,109 @@ $bodyColor: #ededed;
 $articleColor: #fff;
 $asideColor: #ff8000;
 $navColor: #528fd5;
-$generalWidth: 90%;
-$footerColor: #0000;
-$markBorder: 1px solid black;
+$generalWidth: 75%;
+$footerColor: black;
+$markBorder: 0.3px solid black;
 
 // articles styles::backdrop
 
-@mixin article-style($articleColor){
+@mixin article-style ($articleColor) {
+    // background: $articleColor;
     background: $articleColor;
     padding: 20px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
     border-radius: 5px;
 }
 
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 body{
     background: $bodyColor;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     
 
     header{
         width: $generalWidth;
         display: flex;
         flex-direction: column;
+        //border: $markBorder;
 
-        .logo-contendor{
+        .logo-contenedor{
             width: 100%;
-            border: $markBorder;
-
+            
+            a{
+                img{
+                    width: 50px;
+                }
+            }
+    
         }
 
         nav{
             background: $navColor;
             width: 100%;
-            border: $markBorder;  
+            display: flex;
+            align-items: flex-end;
+            // border: $markBorder;
 
+            .links{
+              
+                li{
+                    list-style: none;
+                    display: inline;
+                    margin: 5px;
+                    
+                    
+                    a{
+                        text-decoration: none;
+                        color: $articleColor;
+                    } 
+                }
+            }
+         }
     }
-    
-    
-    section{
+
+ 
+    .page{
         width: $generalWidth;
+        display: flex;
+        flex-direction: row;
+        align-items: stretch;
+        justify-content: space-between;
+        // border: $markBorder;
+
+        .articles{
+            width: 68%;
+            display: flex;
+            flex-direction: column;
+            justify-content:space-around;
+            align-items: center;
+            // border: $markBorder;
+
+            
+            #article1, #article2{
+                @include article-style($articleColor);
+
+            }
+        }
+
+        aside{
+            width: 25%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: $asideColor;
+
+            p{
+                text-align:center;
+            }
+        }
 
     }
 
@@ -51,6 +112,19 @@ body{
     footer{
         width: $generalWidth;
         background: $footerColor;
+        height: 60px;
+        border: $markBorder;
+        
+
+        .footer-content{
+            margin: 10px auto;
+            p{
+                color: white;
+                text-align: center;
+            
+            }
+            
+        }
 
     }
 
