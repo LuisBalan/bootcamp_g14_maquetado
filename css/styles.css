@@ -3,6 +3,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 body header {
@@ -10,6 +14,21 @@ body header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body header .logo-contendor {
+  width: 100%;
+  border: 1px solid black;
+}
+
+body header nav {
+  background: #528fd5;
+  width: 100%;
+  border: 1px solid black;
 }
 
 body section {
@@ -18,5 +37,6 @@ body section {
 
 body footer {
   width: 90%;
+  background: #0000;
 }
 /*# sourceMappingURL=styles.css.map */

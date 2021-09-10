@@ -1,22 +1,56 @@
 $bodyColor: #ededed;
 $articleColor: #fff;
 $asideColor: #ff8000;
+$navColor: #528fd5;
 $generalWidth: 90%;
+$footerColor: #0000;
+$markBorder: 1px solid black;
+
+// articles styles::backdrop
+
+@mixin article-style($articleColor){
+    background: $articleColor;
+    padding: 20px;
+    margin-bottom: 10px
+    border-radius: 5px;
+}
+
+
 
 body{
     background: $bodyColor;
     display: flex;
+    flex-direction: column;
+    
+
     header{
         width: $generalWidth;
         display: flex;
+        flex-direction: column;
+
+        .logo-contendor{
+            width: 100%;
+            border: $markBorder;
+
+        }
+
+        nav{
+            background: $navColor;
+            width: 100%;
+            border: $markBorder;  
 
     }
+    
+    
     section{
         width: $generalWidth;
 
     }
+
+
     footer{
         width: $generalWidth;
+        background: $footerColor;
 
     }
 
