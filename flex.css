@@ -175,6 +175,7 @@ p#numberphone{
     flex-direction: column;
     justify-content: center;
     height: 20%;
+    /* max-width: 1000px; */
 }
 
 .menu-options{
@@ -186,15 +187,16 @@ p#numberphone{
 }
 
 ul.final-questions {
-    list-style: none;
     display: flex;
     width: 60%;
     flex-direction: row;
     flex-wrap: wrap;
+
 }
 
 ul.final-questions li{
     display: inline;
+    list-style:;
 }
 
 #comenzar: :hover{
