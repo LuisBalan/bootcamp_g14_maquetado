@@ -1,3 +1,9 @@
+//variables
+
+$bgColorBody: #1d0b0b ; 
+
+
 body{
-    background-color: black;
+    background-color: $bgColorBody;
+    color: red;
 }
