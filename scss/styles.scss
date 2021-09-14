@@ -1,9 +1,10 @@
-//variables
-
-$bgColorBody: #1d0b0b ; 
 
 
-body{
-    background-color: $bgColorBody;
-    color: red;
+
+@mixin displayFlexRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
 }
