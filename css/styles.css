@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-
-
 body{
     background: #ededed;
     display: flex;
@@ -23,7 +21,7 @@ body{
 .empty-yellow-container{
     background: #fff059;
     padding: 0 0 80px 0;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -70,12 +68,94 @@ main{
 }
 
 
-.signup-section{
+.signup-section, .help-to-enter-section{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    background: #ededed;
+    justify-content: center;
+}
+
+
+.left-gray-empty-signup-section, .central-white-signup-section, .right-gray-empty-signup-section{
+    padding: 40px 0 120px 0;
+    width: 33.3%;
+}
+
+.left-gray-empty-signup-section, .right-gray-empty-signup-section{
     background: #ededed;
 }
 
-footer {
-    background: #fff;
+.central-white-signup-section{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-gray-empty-help-section, .central-white-help-section, .right-gray-empty-help-section{
+    width: 33.3%;
+    padding: 25px 0 25px 0;
+}
+
+.central-white-help-section{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1px solid #ededed;
+    border-radius: 0 0 10px 10px;
+}
+
+.central-white-help-section a{
+    text-decoration: none;
+    color: #3483FA;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.protected-section{
+    /* border: 1px solid   black; */
+    width:100%;
+    padding: 50px 0 80px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.protected-section span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #898989 ;
+}
+
+.protected-section a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #639ef7;
+    text-decoration: none;
+    
+}
+
+
+
+.footer-container{
+    background: #FFFF;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0 45px 0;
+}
+
+
+.footer-container a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #494949;
+}
+
+.footer-container span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #898989 ;
+
 }
