@@ -93,6 +93,57 @@ main{
     align-items: center;
 }
 
+.central-white-signup-section form label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #494949;
+}
+
+.central-white-signup-section form input{
+    padding: 20px 85px 20px 85px;
+    border-radius: 3.5px;
+    border: 1px solid #7c7a7a;
+}
+
+.central-white-signup-section .continue-button{
+    padding: 20px 148px 20px 148px;
+    border-radius: 3.5px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+    background: #3986fa ;
+    
+    border: 1px solid #7c7a7a;
+
+}
+
+.central-white-signup-section .create-account-button{
+    padding: 20px 139px 20px 139px;
+    border-radius: 3.5px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    
+    background: white ;
+    
+    border: 1px solid #7c7a7a;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .left-gray-empty-help-section, .central-white-help-section, .right-gray-empty-help-section{
     width: 33.3%;
     padding: 25px 0 25px 0;
