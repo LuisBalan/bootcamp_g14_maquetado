@@ -25,6 +25,12 @@ a{
 }
 
 
+.col-3{
+    border-radius: 15px;
+}
+
+
+
 label{
     color: rgb(10, 140, 201);
     font-size: x-large;
