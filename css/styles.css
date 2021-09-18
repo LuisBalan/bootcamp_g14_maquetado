@@ -1,5 +1,5 @@
 body{
-    background:rgb(17, 51, 34);
+    background: rgb(235, 230, 230);
     background-image: url(img/acoustic-guitar.jpg);
 }
 
@@ -23,5 +23,36 @@ a{
     font-size: large;
     font-weight: bolder;
 }
+
+
+label{
+    color: rgb(10, 140, 201);
+    font-size: x-large;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact-Us Page Styles */
 
 
