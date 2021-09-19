@@ -21,13 +21,13 @@
 
         <div class = "container-fluid" id = "navbar">
           <div class="row">
-            <div class="col-2"></div>
-            <div class="col-2" id = "guitar-section"><a href = "/index.html">The Guitar Depot</a></div>
-            <div class="col-2"></div>
-            <div class="col-1"><a href = "/index.html">Inicio</a></div>
-            <div class="col-2"><a href = "/about-us.html">Acerca de Nosotros</a></div>
-            <div class="col-1"><a class = "contact-us" href = "/contact-us.html">Contacto</a></div>
-            <div class="col-1"></div>
+            <div class="col-lg-2 col-sm-0"></div>
+            <div class="col-lg-2 col-sm-10" id = "guitar-section"><a href = "/index.html">The Guitar Depot</a></div>
+            <div class="col-lg-2 col-sm-12"></div>
+            <div class="col-lg-1 col-sm-10"><a href = "/index.html">Inicio</a></div>
+            <div class="col-lg-2 col-sm-10"><a href = "/about-us.html">Acerca de Nosotros</a></div>
+            <div class="col-lg-1 col-sm-10"><a class = "contact-us" href = "/contact-us.html">Contacto</a></div>
+            <div class="col-lg-1 col-sm-12"></div>
           </div>
         </div>
 
@@ -36,20 +36,23 @@
 
 
     <main>
-      <div class="container" style = "height: 530px;" id = "carousel-section">
+      <div class="container" id = "carousel-section">
 
         <div class="row" style = "height:100%">
 
           <div class="col-xl-5 col-sm-12" id = "description-section">
             
             <article>
-              <h3>Nuestra historia</h3>
-              <p>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni quisquam, recusandae eum unde maxime repellat magnam deserunt non architecto dicta a, possimus temporibus et sunt dolorem error accusantium veritatis optio.
-              </p>
-            
+              <h4>Nuestra historia</h4>
+
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima in exercitationem nobis eos, corporis inventore tempora, dolore consequatur atque temporibus id perspiciatis vitae eius fugit illum labore, excepturi cum obcaecati.
                 Corporis impedit dolores quod dolore suscipit dignissimos perferendis, neque magnam cumque aperiam quis dolorem natus quaerat in possimus doloribus, consequuntur sunt, eveniet id adipisci veritatis. Odit quasi consequuntur nobis omnis.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dicta rerum reprehenderit cupiditate tempora.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
           </article>
 
@@ -59,34 +62,40 @@
 
             <div class="carousel-container">
 
-              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="img/electric-guitars.jpg" class="d-block w-100" alt="taylor guitars">
+                    <img src="/img/image1.jpg" class="img-thumbnail" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/acoustic-guitar.jpg" class="d-block w-100" alt="...">
+                    <img src="/img/image2.jpg" class="img-thumbnail" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/electric-guitars.jpg" class="d-block w-100" alt="...">
+                    <img src="/img/image3.jpg" class="img-thumbnail" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/drums-section.JPG" class="d-block w-100" alt="...">
+                    <img src="/img/image4.webp" class="img-thumbnail" alt="...">
                   </div>
                   <div class="carousel-item">
-                    <img src="img/figura1.webp" class="d-block w-100" alt="...">
+                    <img src="/img/image5.png" class="img-thumbnail" alt="...">
                   </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
                 </button>
               </div>
-
 
             </div>
 
