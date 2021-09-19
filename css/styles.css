@@ -8,30 +8,42 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#navbar{
-    background: #206648;
-    height: 80px;
-    /* border-radius: 5px; */
-    margin-bottom: 13px;
-    margin-top: -3px;
-    padding: 25px 0 0 0;
-    font-size: x-large;
-}
-
-
-
 a{
     text-decoration: none;
     color: white;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-    font-size: large;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bolder;
 }
+
+#navbar{
+    background: #206648;
+    height: 60px;
+    /* border-radius: 5px; */
+    margin-bottom: 13px;
+    margin-top: -3px;
+    padding: 18px 0 0 0;
+}
+
+#navbar a{
+
+}
+
+#navbar a:hover{
+    color: #f5eb32;
+
+}
+
+#second-row{
+    margin-top: 11px;
+}
+
+
+
 
 #acusticas-section{
     background: #8feac2;
     border-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
     padding:12px;
     flex-wrap: wrap;
     align-items: center;
@@ -40,7 +52,7 @@ a{
 
 #acusticas-section a{
     margin: 0 20px 0 20px;
-    font-size: xx-large;
+    font-size: x-large;
     color: #3e6655;
 }
 
@@ -48,51 +60,66 @@ a{
     color: blue;
 }
 
-
+#acusticas-section a:hover{
+    color: #f5a534;
+}
 
 #basses-section{
     background: #3e6655;
     border-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
     padding:12px;
 }
     
 #basses-section a{
     margin: 0 20px 0 20px;
-    font-size: xx-large;
+    font-size: x-large;
     /* color: #3e6655; */
+}
+
+#basses-section a:hover{
+    color: #f5a534;
 }
 
 #effects-section{
     background: #47e6a1;  
     border-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
     padding:12px;
 }
 
 #effects-section a{
     margin: 0 20px 0 20px;
-    font-size: xx-large;
+    font-size: x-large;
     /* color: #3e6655; */
+}
+
+#effects-section a:hover{
+    color: #f5a534;
 }
 
 #amps-section{
     background: #37b37d;
     border-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
     padding:12x;
 }
 
 #amps-section a{
     margin: 0 20px 0 20px;
-    font-size: xx-large;
+    font-size: x-large;
     /* color: #3e6655; */
+}
+
+
+#amps-section a:hover{
+    color: #f5a534;
 }
 
 #electric-guitars-section{
     background: #8feac2;
     border-radius: 20px;
-    border: 5px solid white;
+    border: 3px solid white;
     padding:12px;
     border-radius: 15px;
     display: flex;
@@ -102,12 +129,12 @@ a{
 
 #electric-guitars-section a{
     margin: 0 20px 0 20px;
-    font-size: xx-large;
+    font-size: x-large;
     color: #3e6655;
 }
 
 #electric-guitars-section a:hover{
-    color: blue;
+    color: #f5a534;
 }
 
 /************* About Us Content *********/
