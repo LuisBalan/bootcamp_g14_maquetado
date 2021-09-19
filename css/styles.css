@@ -148,10 +148,11 @@ a{
     color: #f5a534;
 }
 
-/************* About Us Content *********/
+/************* About Us Page Styles *********/
 
 #carousel-section{
     background: white;
+    /* margin-top: -5px; */
     /* border-radius: 10px; */
 }
 
@@ -159,16 +160,18 @@ a{
     border: 5px solid white;
     border-radius: 10px;
     background: #37b37d;
+    min-height: 300px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     align-items: center;
     justify-content: space-around;
 }
 
 
 #description-section article{
-    width: 86%;
-    /* display: flex; */
+    width: 90%;
+    /* max-height: 500px; */
+    display: flex;
     flex-direction: column;
     text-align:justify;
     padding: 15px 0 10px 0;
@@ -186,7 +189,18 @@ a{
     border: 5px solid white;
     border-radius: 10px;
     background: white;
+    min-height: 240px;
+    align-items: center;
+    justify-content: space-around;
 }
+
+
+#image-carousel{
+    box-sizing: border-box;
+    width : 600px;
+    height: 460px;
+}
+
 
 /* Contact Us Page Styles */
 
