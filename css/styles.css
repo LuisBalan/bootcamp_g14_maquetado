@@ -15,6 +15,7 @@ body{
     margin-bottom: 13px;
     margin-top: -3px;
     padding: 25px 0 0 0;
+    font-size: x-large;
 }
 
 
@@ -40,7 +41,11 @@ a{
 #acusticas-section a{
     margin: 0 20px 0 20px;
     font-size: xx-large;
-    /* color: #3e6655; */
+    color: #3e6655;
+}
+
+#acusticas-section a:hover{
+    color: blue;
 }
 
 
@@ -51,7 +56,7 @@ a{
     border: 5px solid white;
     padding:12px;
 }
-
+    
 #basses-section a{
     margin: 0 20px 0 20px;
     font-size: xx-large;
@@ -92,12 +97,51 @@ a{
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+
 }
 
 #electric-guitars-section a{
     margin: 0 20px 0 20px;
     font-size: xx-large;
-    /* color: #3e6655; */
+    color: #3e6655;
+}
+
+#electric-guitars-section a:hover{
+    color: blue;
+}
+
+/************* About Us Content *********/
+
+#carousel-section{
+    background: white;
+    /* border-radius: 10px; */
+}
+
+#description-section{
+    border: 5px solid white;
+    border-radius: 10px;
+    background: #37b37d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#description-section article{
+    width: 86%;
+    /* display: flex; */
+    flex-direction: column;
+    text-align:justify
+}
+
+
+
+
+#photo-section{
+    border: 5px solid white;
+    border-radius: 10px;
+    background: #37b37d;
 }
 
 
