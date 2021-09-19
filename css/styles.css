@@ -33,6 +33,10 @@ a{
 
 }
 
+.material-icons{
+    position: relative;
+    top: 4.7px;
+}
 #first-row{
     margin-bottom: 2px;
 }
