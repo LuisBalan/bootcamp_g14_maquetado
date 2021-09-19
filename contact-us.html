@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href = "css/styles.css" rel = "stylesheet" type = "text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>The Guitar Depot - Home</title>
     
   </head>
@@ -19,62 +20,53 @@
     <header>
 
       <nav>
-
         <div class = "container-fluid" id = "navbar">
           <div class="row">
             <div class="col-lg-2 col-sm-0"></div>
-            <div class="col-lg-2 col-sm-10" id = "guitar-section"><a href = "/index.html">The Guitar Depot</a></div>
-            <div class="col-lg-2 col-sm-12"></div>
-            <div class="col-lg-1 col-sm-10"><a href = "/index.html">Inicio</a></div>
-            <div class="col-lg-2 col-sm-10"><a href = "/about-us.html">Acerca de Nosotros</a></div>
-            <div class="col-lg-1 col-sm-10"><a class = "contact-us" href = "/contact-us.html">Contacto</a></div>
-            <div class="col-lg-1 col-sm-12"></div>
+            <div class="col-lg-3 col-sm-10" id = "guitar-section"><a href = "/index.html">The Guitar Depot</a></div>
+            <div class="col-lg-1 col-sm-0"></div>
+            <div class="col-lg-1 col-sm-12"><a href = "/index.html"><i class="material-icons">home</i>Inicio</a></div>
+            <div class="col-lg-2 col-sm-10"><a href = "/about-us.html"><i class="material-icons">group</i>Acerca de Nosotros</a></div>
+            <div class="col-lg-2 col-sm-10"><a class = "contact-us" href = "/contact-us.html"><i class="material-icons">connect_without_contact</i>Contacto</a><div>
+            <!-- <div class="col-lg-1 col-sm-12"></div> -->
           </div>
         </div>
-
       </nav>
-    </header>
 
+    </header>
     <div class="contain">
 
       <div class="row">
-        <div class="col-4"></div>
-        <div class="col-4">
-
-          <form>
-            <div class="form-group">
-              <label for="inputName">Nombre</label>
-              <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Ingresa tu nombre">
-              <small id="name" class="form-text text-muted">Ingresa tu nombre en minúsculas.</small>
-            </div><br>
-            <!-- <div class="form-group">
-              <label for="first-lastName">Ingresa tu primer apellido</label>
-              <input type="text" class="form-control" id="first-lastName" aria-describedby="emailHelp" placeholder="Primer apellido">
-              <small id="first-lastName" class="form-text text-muted">Ingresa tu primer apellido en minúsculas.</small>
-            </div><br> -->
-            <!-- <div class="form-group">
-              <label for="second-lastName">Ingresa tu segundo apellido</label>
-              <input type="text" class="form-control" id="inputName" aria-describedby="emailHelp" placeholder="Segundo apellido">
-              <small id="second-lastName" class="form-text text-muted">Ingresa tu segundo apellido en minúsculas.</small>
-            </div><br> -->
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="myaccount@example.com">
-              <small id="emailHelp" class="form-text text-muted">Permítenos comunicarnos contigo.</small>
-            </div><br>
-            <div class="form-floating">
-              <label for="floatingTextarea2">Comments</label>
-              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-            </div><br>
-            <!-- <div class="form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div><br> -->
-            <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-
+        <div class="col-lg-2 col-sm-1"></div>
+        <div class="col-lg-1 col-sm-1"></div>
+        <div class="col-lg-6 col-sm-8">
+                    
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+            <small id="name" class="form-text text-muted">Ingresa tu nombre en minúsculas.</small>
+          </div><br>
+          <div class="mb-3">
+            <label for="exampleFormControlInput2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+            <small id="emailHelp" class="form-text text-muted">Permítenos comunicarnos contigo.</small>
+          </div><br>
+          <div class = "row" id = "comments-and-button-container">
+            <div id = "comments-container" class = "col-lg-10 col-sm-12">
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mi comentario"></textarea>
+                <small id="emailHelp" class="form-text text-muted">Agrega tus comentarios, sugerencias o pregunta sobre algún artículo de tu interés.</small>
+              </div><br>
+            </div>
+            <div id = "send-button-container" class = "col-lg-2 col-sm-12">
+              <button id = "send-button" type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        
         </div>
-        <div class="col-4"></div>        
+        <div class = "col-lg-1 col-sm-1"></div>
+        <div class="col-lg-2 col-sm-1"></div>        
       </div>
     </div>
   
