@@ -41,6 +41,47 @@ $font-color-titles-subtitles: white;
     border: $border-test;
 }
 
+@mixin cover-style(){
+    width:100%;
+    min-height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space;
+    /* border: green solid 1px; */
+    align-items: stretch;
+//     background-image: url("/img/netflix-background.jpg");
+}
+
+@mixin main-screen-style(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 97%;
+}
+
+@mixin titles-container-style(){
+    width: 65%;
+    height: 32%;
+    position: relative;
+    top: -55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@mixin quieres-ver-subtitle-style(){
+    font-size: x-large;
+    // font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    color: $font-color-titles-subtitles;
+}
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -355,15 +396,33 @@ body{
 
             }
 
+  /************************+ revisar +++++++*/
+            .cover-2{
+                @include cover-style();
+                // background: black;
+
+                .main-screen-2{
+                    @include main-screen-style();
+
+                    .titles-container-2{
+                        @include titles-container-style();
+
+                        .quieres-ver-subtitle-2{
+                            @include quieres-ver-subtitle-style();
+                        }   
+
+                    }
+                }
+            }
+
+
+
          
 
 
         }
 
-        .login-again{
-            background: black;
-        }
-
+       
             
     }
 

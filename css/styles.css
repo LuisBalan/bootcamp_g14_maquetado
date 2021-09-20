@@ -387,6 +387,7 @@ body .black-containers-section .faq-container {
       flex-direction: column;
   background: black;
   padding: 0 0 20px 0;
+  /************************+ revisar +++++++*/
 }
 
 body .black-containers-section .faq-container .faq-title-container {
@@ -451,8 +452,69 @@ body .black-containers-section .faq-container .faq-buttons-container .question-a
   color: white;
 }
 
-body .black-containers-section .login-again {
-  background: black;
+body .black-containers-section .faq-container .cover-2 {
+  width: 100%;
+  min-height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space;
+      -ms-flex-pack: space;
+          justify-content: space;
+  /* border: green solid 1px; */
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+body .black-containers-section .faq-container .cover-2 .main-screen-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 97%;
+}
+
+body .black-containers-section .faq-container .cover-2 .main-screen-2 .titles-container-2 {
+  width: 65%;
+  height: 32%;
+  position: relative;
+  top: -55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .black-containers-section .faq-container .cover-2 .main-screen-2 .titles-container-2 .quieres-ver-subtitle-2 {
+  font-size: x-large;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  color: white;
 }
 
 div.frecuentes {
