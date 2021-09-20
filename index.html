@@ -5,6 +5,7 @@
         <!-- <link rel = "stylesheet" type = "text/css" href = "flex.css"> -->
         <link rel = "stylesheet" type = "text/css" href = "/css/styles.css">
         <meta name = "viewport" content = "width=device-width, initial-scale 1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <!-- <link rel = "stylesheet" href="responsive.css"> -->
         <title>Netflix México: Ve series online, ve películas online</title>
     </head>
@@ -15,29 +16,33 @@
         <div class = "cover">
             <header>
                 <nav class = "navbar">
+
                     <div class = "left-nav">
-                        <img  class = "logo-netflix" src = "img/logo-netflix.png" width = 150px>
+                        <img  class = "logo-netflix" src = "img/logo-netflix.png">
                     </div>
 
                     <div class = "right-nav">
-                        <ul class = "listasup">
-                            <li>
-                                <form id = "botones">
-                                    <select>
-                                        <option>Español</option>
-                                        <option>English</option>
-                                    </select>
-                                </form>
-                            </li>
-                            <li><button id = "comenzar">Iniciar sesión</button></li>
-                        </ul>
+                        <div class = "language-button-container">
+                            <button  class = "language-selector-button" id = "language-button">
+                                <div class="language-icon-container">
+                                    <i class="material-icons">language</i>
+                                </div>
+                                <select>
+                                    <option class = "spanish-button">Español</option>
+                                    <option>English</option>
+                                </select>
+                            </button>
+                        </div>
+
+                        <div class = "login-button-container">
+                            <button id = "comenzar">Iniciar sesión</button>
+                        </div>
+                    
                     </div>
                 </nav>
 
             </header>
             
-         
-
             <main class = "main_screen">
 
                 <div class = "login">
@@ -63,6 +68,8 @@
             </main>
 
         </div>
+
+        
 
         <div class = "black_section">
 

@@ -2,8 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 body{
     width: 100%;
@@ -24,50 +24,111 @@ body{
         align-items: stretch;
         background-image: url("/img/netflix-background.jpg");
 
-        .left-nav{
+        header{
 
-            logo-netflix{
-                height: 710px;
-                width: 1354px;    
+            .navbar{
+                // border: 1px solid red;
+                position: relative;
+                top: 15px;
+                
+                width: 100%;
+                flex-direction: row;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                align-content: stretch;
+    
+                .left-nav{
+                    // border: 1px solid blue;
+                    left: 45px;
+                    position: relative;
+    
+                    .logo-netflix{
+                        width: 135px;    
+                    }
+                }
+    
+                .right-nav{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    // border: 1px solid green;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    position: relative;
+                    right: 45px;
+    
+                    .language-button-container{
+                        margin: 0 15px 0 0;
+                        background: black;
+                        border: #e50914 2px solid;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        // width: 150px;
+    
+                        .language-selector-button{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            background: black;
+                            border: none;
+    
+                            i{
+                                color: white;
+                                background: transparent;
+                                position: relative;
+                                // top: 4px;
+                                // right: -9px;
+                            }
+                            
+    
+                            select{
+                                background: black;
+                                border: black 1px solid;
+                                margin: black;
+                                color: white;
+                                padding: 8px;
+                                font-size: small;
+                                font-weight: bold;
+                                font-family: Arial, Helvetica, sans-serif;
+    
+                            }
+                        }    
+    
+                    }
+    
+                    .login-button-container{
+                        background: #e50914;
+                        border: #e50914;
+                        border-radius: 3px;
+                        margin-left: 15px;
+        
+        
+                        button{
+                            background: #e50914;
+                            padding: 9px;
+                            border: #e50914;
+                            border-radius: 3px;
+                            font-size: medium;
+                            color: white;
+                                
+                            }
+                        }
+                    }     
+                    
+                    
+
             }
 
         }
-
-        
-
-
+    
     }
 
-    border: 1px solid #333;
-
-
 }
 
 
-
-
-.navbar{
-    border: 1px solid red;
-    height: 3%;
-    width: 100%;
-    flex-direction: row;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: stretch;
-}
-
-div.left-nav {
-    border: 1px solid blue;
-}
-
-div.right-nav {
-    border: 1px solid green;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-}
 
 .listasup{
   display: flex;
@@ -83,7 +144,7 @@ div.right-nav {
     justify-content: center;
     width: 100%;
     height: 97%;
-    border: black solid 1px;
+    // border: black solid 1px;
     min-height: 700px;
 }
 
