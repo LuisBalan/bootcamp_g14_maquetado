@@ -160,7 +160,7 @@ body .cover header .navbar .right-nav .login-button-container button {
   color: white;
 }
 
-body .cover .main_screen {
+body .cover .main-screen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -176,11 +176,9 @@ body .cover .main_screen {
           justify-content: center;
   width: 100%;
   height: 97%;
-  border: white solid 1px;
 }
 
-body .cover .main_screen .titles-container {
-  border: 1px solid white;
+body .cover .main-screen .titles-container {
   width: 65%;
   height: 32%;
   position: relative;
@@ -200,25 +198,29 @@ body .cover .main_screen .titles-container {
           justify-content: space-evenly;
 }
 
-body .cover .main_screen .titles-container .peliculas-title {
+body .cover .main-screen .titles-container .peliculas-title {
   font-size: xxx-large;
   font-weight: bolder;
   width: 75%;
-  border: 1px solid white;
+  text-align: center;
+  color: white;
 }
 
-body .cover .main_screen .titles-container .donde-quieras-subtitle {
+body .cover .main-screen .titles-container .donde-quieras-subtitle {
   font-size: x-large;
   font-weight: bold;
+  color: white;
 }
 
-body .cover .main_screen .titles-container .quieres-ver-subtitle {
-  font-size: xx-large;
+body .cover .main-screen .titles-container .quieres-ver-subtitle {
+  font-size: x-large;
+  text-align: center;
   position: relative;
-  top: 40px;
+  top: 10px;
+  color: white;
 }
 
-body .cover .main_screen .login-section {
+body .cover .main-screen .login-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -233,14 +235,13 @@ body .cover .main_screen .login-section {
           justify-content: space-between;
 }
 
-body .cover .main_screen .login-section .email-input-container {
+body .cover .main-screen .login-section .email-input-container {
   width: 70%;
   height: 50px;
   background: #e50914;
-  border: 1px solid white;
 }
 
-body .cover .main_screen .login-section .email-input-container .email-input {
+body .cover .main-screen .login-section .email-input-container .email-input {
   width: 100%;
   height: 100%;
   font-size: large;
@@ -248,14 +249,14 @@ body .cover .main_screen .login-section .email-input-container .email-input {
   border: white;
 }
 
-body .cover .main_screen .login-section .comenzar-button-container {
+body .cover .main-screen .login-section .comenzar-button-container {
   width: 30%;
   height: 50px;
   background: #e50914;
   border: #e50914;
 }
 
-body .cover .main_screen .login-section .comenzar-button-container .comenzar-button {
+body .cover .main-screen .login-section .comenzar-button-container .comenzar-button {
   background: #e50914;
   padding: 9px;
   border: #e50914;
@@ -313,15 +314,7 @@ body .cover .main_screen .login-section .comenzar-button-container .comenzar-but
       flex-wrap: wrap;
 }
 
-p, li {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: larger;
-  color: white;
-  direction: ltr;
-}
-
-div.black-section {
+.black-container-section {
   width: 100%;
   height: 60%;
   -webkit-box-orient: vertical;

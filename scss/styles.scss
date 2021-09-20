@@ -1,6 +1,7 @@
 $border-test: 1px solid white;
 $netflix-red-tone: #e50914;
 $input-color-font: #474646;
+$font-color-titles-subtitles: white;
 
 
 @mixin red-button-features(){
@@ -138,18 +139,18 @@ body{
 
         }
 
-        .main_screen{
+        .main-screen{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             width: 100%;
             height: 97%;
-            border: white solid 1px;
+            // border: white solid 1px;
             // min-height: 700px;
 
             .titles-container{
-                border: $border-test;
+                // border: $border-test;
                 width: 65%;
                 height: 32%;
                 position: relative;
@@ -159,22 +160,29 @@ body{
                 align-items: center;
                 justify-content: space-evenly;
                 
+                
                 .peliculas-title{
                     font-size: xxx-large;
                     font-weight: bolder;
                     width: 75%;
-                    border: $border-test;
+                    text-align: center;
+                    color:$font-color-titles-subtitles;
+                    // border: $border-test;
                 }
     
                 .donde-quieras-subtitle{
                     font-size: x-large;
                     font-weight: bold;
+                    color:$font-color-titles-subtitles;
                 }
     
                 .quieres-ver-subtitle{
-                    font-size: xx-large;
+                    font-size: x-large;
+                    // font-weight: bold;
+                    text-align: center;
                     position: relative;
-                    top: 40px;
+                    top: 10px;
+                    color: $font-color-titles-subtitles;
                 }
 
             }
@@ -190,7 +198,7 @@ body{
                     width: 70%;
                     height: 50px;
                     background: $netflix-red-tone;
-                    border: $border-test;
+                    // border: $border-test;
 
                     .email-input{
                         width: 100%;
@@ -223,12 +231,6 @@ body{
             }
 
             
-
-
-
-
-
-
 
         }
     
@@ -267,17 +269,17 @@ body{
 
 
 
-p, li{
-    text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: larger;
-    color: white;
-    direction: ltr;
-}
+// p, li{
+//     text-align: center;
+//     font-family:Arial, Helvetica, sans-serif;
+//     font-size: larger;
+//     color: white;
+//     direction: ltr;
+// }
 
 
 
-div.black-section{
+.black-container-section{
     width: 100%;
     height: 60%;
     flex-direction: column;
