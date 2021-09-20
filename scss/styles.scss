@@ -1,8 +1,9 @@
 $border-test: 1px solid white;
 $netflix-red-tone: #e50914;
+$input-color-font: #474646;
 
 
-@mixin red-button-features{
+@mixin red-button-features(){
     background: #e50914;
     padding: 9px;
     border: #e50914;
@@ -181,8 +182,43 @@ body{
             .login-section{
                 display: flex;
                 flex-direction: row;
-                width: 50%;
+                width: 45%;
                 border: $border-test;
+                justify-content: space-between;
+
+                .email-input-container{
+                    width: 70%;
+                    height: 50px;
+                    background: $netflix-red-tone;
+                    border: $border-test;
+
+                    .email-input{
+                        width: 100%;
+                        height: 100%;
+                        font-size: large;
+                        color: $input-color-font;
+                        border: white;
+                    }
+
+                    
+                }
+
+                .comenzar-button-container{
+                    width: 30%;
+                    height: 50px;
+                    background: $netflix-red-tone;
+                    border: $netflix-red-tone;
+
+                    .comenzar-button{
+                        @include red-button-features();
+                        height: 100%;
+                        width: 100%;
+                        font-size: large;
+
+                    }
+
+                }
+                
 
             }
 

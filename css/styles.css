@@ -226,8 +226,45 @@ body .cover .main_screen .login-section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 50%;
+  width: 45%;
   border: 1px solid white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .cover .main_screen .login-section .email-input-container {
+  width: 70%;
+  height: 50px;
+  background: #e50914;
+  border: 1px solid white;
+}
+
+body .cover .main_screen .login-section .email-input-container .email-input {
+  width: 100%;
+  height: 100%;
+  font-size: large;
+  color: #474646;
+  border: white;
+}
+
+body .cover .main_screen .login-section .comenzar-button-container {
+  width: 30%;
+  height: 50px;
+  background: #e50914;
+  border: #e50914;
+}
+
+body .cover .main_screen .login-section .comenzar-button-container .comenzar-button {
+  background: #e50914;
+  padding: 9px;
+  border: #e50914;
+  border-radius: 3px;
+  font-size: medium;
+  color: white;
+  height: 100%;
+  width: 100%;
+  font-size: large;
 }
 
 .listasup {
