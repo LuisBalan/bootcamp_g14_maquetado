@@ -13,25 +13,38 @@ body{
     align-items: center;
     justify-content: stretch;
     background: #222222;
-    border: 1px solid #333;
-}
-
-div.portada{
-    width:100%;
-    height: 750%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space;
-    /* border: green solid 1px; */
-    align-items: stretch;
-    background-image: url("img/netflix-background.jpg");
-}
-
-/* div{
-    border: 1px, solid black;
-   
     
-} */
+    .cover{
+        width:100%;
+        height: 750%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space;
+        /* border: green solid 1px; */
+        align-items: stretch;
+        background-image: url("/img/netflix-background.jpg");
+
+        .left-nav{
+
+            logo-netflix{
+                height: 710px;
+                width: 1354px;    
+            }
+
+        }
+
+        
+
+
+    }
+
+    border: 1px solid #333;
+
+
+}
+
+
+
 
 .navbar{
     border: 1px solid red;
